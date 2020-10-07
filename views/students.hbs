@@ -1,0 +1,7 @@
+<h1>Students</h1>
+{{!-- handlebars foreach loop!
+starts with {{#each [name of iterable]}}, ends with a {{/each}} --}}
+{{#each students}}
+    {{> info this }}
+    {{!-- > to notify of a partial, info is the partial's file name, pass the information it requires, in this case the element stored in [this]--}}
+{{/each}}

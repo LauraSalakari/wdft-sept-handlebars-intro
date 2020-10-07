@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>Hello {{name}}, you're in landing page {{smiley}}</div>
+    {{!-- in .hbs files, you can use the dynamic content sent along the file with double squiggly brackets around it! --}}
+</body>
+
+</html>
+
+{{!-- if this is not excluded from the layout, 
+then the meta stuff repeats in the body of the page because 
+handlebars sticks EVERYTHING on this page into the body! --}}
